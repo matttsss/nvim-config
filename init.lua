@@ -180,7 +180,7 @@ require('lazy').setup({
   --            })
   --        end,
   --    }
-
+  require 'plugins.lazygit_wrapper',
   require 'plugins.oil',
 
   -- Here is a more advanced example where we pass configuration
